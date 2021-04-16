@@ -67,12 +67,13 @@ int main(int argc,char* argv[])
 					}
 	
 				}
-				catch( const char* message)
-				{
-					std::cout<<message<<std::endl;
-				}
-			}
 
+				
+			 }
+			catch( const char* message)
+			{
+					std::cout<<message<<std::endl;
+			}
 			//search on db
 			//update on db
 			break;
